@@ -6,10 +6,16 @@
 // boolean => true or false
 // null => standalone value 
 // undefined => variable decalred but not give the value
-// symbol => for finding the uniqueness
+// symbol => for making component unique
+
+// const id = Symbol("123");
+// const anotherId = Symbol("123");
+// console.log(id == anotherId); // false
+// const bigNumber = 12345678999n;
 
 console.log(typeof null); // object
 console.log(typeof undefined); // undefined
+console.log(typeof bigNumber); // undefined
 
 // 2. Non-primitive or reference datatypes and this are call by reference
 // object
