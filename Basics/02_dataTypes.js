@@ -23,3 +23,9 @@ console.log(typeof bigNumber); // undefined
 // function
 
 // javascript is dynamically typed language which means we can change the datatype of the variable at runtime
+
+
+// js store in two way 
+// 1. Stack -> it stores primitive datatypes and gives copy of value
+// 2. Heap -> it stores non-primitive datatypes and gives reference to the value
+
