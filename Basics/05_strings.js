@@ -8,14 +8,15 @@ console.log(`Hello my name is ${name} and my repo count is ${repoCount}`); // He
 const gameName = new String('hitesh-hc-com')
 
 // console.log(gameName[0]);
-// console.log(gameName.__proto__);
+// console.log(gameName.__proto__); // return object {}
 
 // console.log(gameName.length);
-// console.log(gameName.toUpperCase());
+// console.log(gameName.toUpperCase()); // but it does not change the original string because string is immutable in js it is make new string and return it
+
 console.log(gameName.charAt(2)); // t
 console.log(gameName.indexOf('t')); // 2
 
-const newString = gameName.substring(0, 4)
+const newString = gameName.substring(0, 4) // 4 is execluded
 console.log(newString); // hite
 
 const anotherString = gameName.slice(-8, 4)
@@ -23,7 +24,7 @@ console.log(anotherString); // (empty string)
 
 const newStringOne = "   hitesh    "
 console.log(newStringOne); // "   hitesh    "
-console.log(newStringOne.trim()); // hitesh
+console.log(newStringOne.trim()); // hitesh whitespace remove
 
 const url = "https://hitesh.com/hitesh%20choudhary"
 

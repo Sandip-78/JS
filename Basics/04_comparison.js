@@ -16,5 +16,6 @@
 // strict check === checks the value and type of the variable
 console.log("2"===2); // false
 
+console.log("110" < "a"); // true because when we compare string with string it compare first character of both string and "1" is less than "a" so it return true
 
-
+console.log("110" > "a"); // false because when we compare string with string it compare first character of both string and "1" is less than "a" so it return false
