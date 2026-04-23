@@ -12,9 +12,9 @@ myArr.unshift(88); // add in the first and shift all others
 myArr.includes(3) ; // true
 myArr.indexOf(2); // 1
 
-const newArr = myArr.join();
-// console.log(newArr); // [1,2,3,"sanju"]
-// console.log(typeof newArr); //string
+const newArr = myArr.join('-'); // it will join all the element of array and make a string with the help of separator which is - in this case
+console.log(newArr); // [1,2,3,"sanju"]
+console.log(typeof newArr); //string
 
 let arr = [1,2,3,4,5];
 console.log(arr);
